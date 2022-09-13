@@ -69,6 +69,13 @@ header .welcome {
 	font-size :25px;
 	padding-bottom: 15px;
 }
+.teks-list p	{
+	text-align :center;
+	margin: 10px 0;
+	font-size :16px;
+	padding-bottom: 15px;
+	color : gray;
+}
 h5 {
 	font-style: italic;
 }
@@ -125,6 +132,7 @@ h5 {
 	width: 390px;
 	height: 390px;
 	box-shadow: 3px 3px 1px rgba(0,0,0,.4);
+	object-fit: cover;
 }
 	
 }
@@ -174,10 +182,11 @@ h5 {
 	height: : auto;
 	flex: auto;
 	flex-direction: column;
+	margin: 0 5px;
 
 }
 
-.navigasi img {
+.navigasi .item img {
 	border-radius: 8px;
 	width:70px;
 	height: 70px;
@@ -185,6 +194,8 @@ h5 {
 	position: relative;
 	top: 5px;
 	right: .8px;
+	object-fit: cover;
+	;
 }
 
 
